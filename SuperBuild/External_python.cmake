@@ -54,6 +54,9 @@ if((NOT DEFINED PYTHON_INCLUDE_DIR
   set(_download_3.9.10_url "https://www.python.org/ftp/python/3.9.10/Python-3.9.10.tgz")
   set(_download_3.9.10_md5 "1440acb71471e2394befdb30b1a958d1")
 
+  set(_download_3.8.10_url "https://www.python.org/ftp/python/3.8.10/Python-3.8.10.tgz")
+  set(_download_3.8.10_md5 "83d71c304acab6c678e86e239b42fa7e")
+
   ExternalProject_Add(python-source
     URL ${_download_${Slicer_REQUIRED_PYTHON_VERSION}_url}
     URL_MD5 ${_download_${Slicer_REQUIRED_PYTHON_VERSION}_md5}
